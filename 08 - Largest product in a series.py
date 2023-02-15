@@ -3,6 +3,7 @@ number = list(map(int,str(731671765313306249192251196744265747423553491949349698
 i = 0
 total = 1
 biggest = 1
+
 while len(number) > 12:
     while i < 13:
         total *= number[i]
@@ -13,4 +14,5 @@ while len(number) > 12:
     total = 1
     number.pop(0)
 
+#end result
 print(biggest)

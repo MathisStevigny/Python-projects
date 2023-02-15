@@ -13,8 +13,8 @@ while count < 10001:
             continue
     except IndexError:
         primes.append(number)
-        print(number)
+        #print(number)
         count += 1
         primePos = 0
         number += 1
-print(primes[9900::])
+print(primes[10000::])

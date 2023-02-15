@@ -7,8 +7,9 @@ b = 2
 while 1==1:
     c = sqrt(a**2 + b**2)
     if a+b+c == 1000:
+        #end result
         print(a*b*c)
-        print(a,b,c)
+        #print(a,b,c)
         break
     elif a != 1000:
         a += 1
